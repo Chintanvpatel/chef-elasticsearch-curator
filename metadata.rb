@@ -10,9 +10,9 @@ version          '0.1.2'
   supports os
 end
 
-%w(apt poise-python).each do |ckbk|
-  depends ckbk
-end
+#%w(apt poise-python).each do |ckbk|
+#  depends ckbk
+#end
 
 # For compatibility with 12.X versions of Chef
 # depends 'compat_resource'
