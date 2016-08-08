@@ -15,7 +15,7 @@ end
 end
 
 # For compatibility with 12.X versions of Chef
-depends 'compat_resource'
+# depends 'compat_resource'
 
 chef_version '>= 12.1' if respond_to?(:chef_version)
 source_url 'https://github.com/cyberflow/chef-elasticsearch-curator' if respond_to?(:source_url)
